@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://itachineuchixa.github.io/tonhackaton",
   "scripts": {
+    "predeploy" : "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
